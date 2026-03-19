@@ -1,4 +1,5 @@
 ## Current Progress
 
-- Project initialized
-- Sensor data simulation implemented
+- Sensor data simulation
+- Data storage in CSV
+- Basic AQI calculation

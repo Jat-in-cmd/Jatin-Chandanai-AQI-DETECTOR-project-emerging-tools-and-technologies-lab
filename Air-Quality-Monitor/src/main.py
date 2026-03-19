@@ -1,7 +1,4 @@
-"""
-Air Quality Monitor
-Basic project initialization file
-"""
+
 
 from sensor_simulator import generate_sensor_data
 from data_handler import save_data

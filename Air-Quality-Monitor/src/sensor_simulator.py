@@ -1,12 +1,9 @@
 import random
+from datetime import datetime
 
 def generate_sensor_data():
-    """
-    Simulates air quality sensor data.
-    Returns a dictionary containing pollutant values.
-    """
-
     data = {
+        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "PM2.5": round(random.uniform(5, 150), 2),
         "PM10": round(random.uniform(10, 200), 2),
         "CO2": round(random.uniform(300, 800), 2),
